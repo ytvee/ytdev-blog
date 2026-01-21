@@ -18,7 +18,7 @@
  * 12. Include drafts: No
  * 13. Secret: Set to the same value as SANITY_REVALIDATE_SECRET (create a random secret if you haven't yet)
  * 14. Save the cofiguration
- * 15. Add the secret to Vercel: `npx vercel env add SANITY_REVALIDATE_SECRET`
+ * 15. Add the secret to Vercel: `npx vercel .env.local add SANITY_REVALIDATE_SECRET`
  * 16. Redeploy with `npx vercel --prod` to apply the new environment variable
  */
 

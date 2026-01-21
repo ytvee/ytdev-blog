@@ -76,7 +76,7 @@ npx vercel link
 Download the environment variables needed to connect Next.js and the Studio to your Sanity project:
 
 ```bash
-npx vercel env pull
+npx vercel .env.local pull
 ```
 
 ### Step 3. Run Next.js locally in development mode
